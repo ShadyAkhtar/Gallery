@@ -1,3 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Gallery</title>
+
+	<!-- fancybox css -->
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.min.css">
+
+	<!-- stylesheet file-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- jquery library -->
+	<script src="js/jquery.min.js"></script>
+
+	<!-- fancybox js library -->
+	<script src="fancybox/jquery.fancybox.min.js"></script>
+
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+    <script src="bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+   <div class="container"> 
 <?php
 // Start session
 session_start();
@@ -67,3 +93,6 @@ $actionLabel = !empty($_GET['id'])?'Edit':'Add';
         </form>
     </div>
 </div>
+</div>
+</body>
+</html>

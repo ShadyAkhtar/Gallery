@@ -26,6 +26,12 @@ $images = $db -> getRows('images', $condition);
 	<!-- fancybox js library -->
 	<script src="fancybox/jquery.fancybox.min.js"></script>
 
+   <!-- bootstrap css  -->
+   <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+<!-- bootstrap script  -->
+<script src="bootstrap/bootstrap.min.js"></script>
+
 	<!-- initialize fancybox -->
 	<script>
 		$("[data-fancybox]").fancybox();
@@ -55,9 +61,9 @@ $images = $db -> getRows('images', $condition);
 
 				</a>
 			</div>
-			<?php}
+			<?php }
            } ?>
 		</div>
-					</div>				
+	</div>				
 </body>
 </html>
