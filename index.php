@@ -55,7 +55,7 @@ $images = $db -> getRows('images', $condition);
 
 				</a>
 			</div>
-			<?php}
+			<?php }
            } ?>
 		</div>
 					</div>				
